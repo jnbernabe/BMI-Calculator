@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BMI men.png" />
+    <None Remove="BMI wm.png" />
+    <None Remove="source\BMI men.png" />
+    <None Remove="source\BMI wm.png" />
+    <None Remove="splash.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="BMI men.png" />
+    <Resource Include="BMI wm.png" />
+    <Resource Include="source\BMI men.png" />
+    <Resource Include="source\BMI wm.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <SplashScreen Include="splash.png" />
+  </ItemGroup>
+
+</Project>
